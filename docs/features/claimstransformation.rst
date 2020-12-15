@@ -25,7 +25,7 @@ Below is an example configuration that will transforms claims to claims
         "UserId": "Claims[sub] > value[1] > |"
     }
 
-This shows a transforms where Ocelot looks at the users sub claim and transforms it into UserType and UserId claims. Assuming the sub looks like this "usertypevalue|useridvalue".
+This shows a transform where Ocelot looks at the users sub claim and transforms it into UserType and UserId claims. Assuming the sub looks like this "usertypevalue|useridvalue".
 
 Claims to Headers Tranformation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
